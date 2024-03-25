@@ -1,0 +1,89 @@
+{
+  "intents": [
+    {
+      "tag": "salam",
+      "patterns": [
+        "Halo",
+        "Hai",
+        "Selamat pagi",
+        "Selamat siang",
+        "Selamat malam",
+        "Apa kabar?"
+      ],
+      "responses": [
+        "Halo! Ada yang bisa saya bantu?",
+        "Hai, ada yang bisa saya bantu?",
+        "Selamat datang! Bagaimana saya bisa membantu Anda?",
+        "Halo! Bagaimana kabarmu?",
+        "Hai, ada yang bisa saya bantu hari ini?"
+      ]
+    },
+    {
+      "tag": "perpisahan",
+      "patterns": ["Sampai jumpa", "Selamat tinggal", "Dadah"],
+      "responses": [
+        "Sampai jumpa! Semoga harimu menyenangkan!",
+        "Selamat tinggal! Terima kasih sudah berkunjung.",
+        "Dadah! Datang lagi ya lain waktu."
+      ]
+    },
+    {
+      "tag": "terima_kasih",
+      "patterns": ["Terima kasih", "Makasih", "Thanks", "Trims"],
+      "responses": [
+        "Sama-sama, senang bisa membantu!",
+        "Tidak masalah! Jika Anda membutuhkan bantuan lagi, jangan ragu untuk bertanya.",
+        "Senang bisa membantu Anda!",
+        "Terima kasih telah menghubungi kami!"
+      ]
+    },
+    {
+      "tag": "produk",
+      "patterns": [
+        "Produk apa yang tersedia?",
+        "Apa saja jenis produk yang Anda miliki?",
+        "Apa yang Anda jual?"
+      ],
+      "responses": [
+        "Kami menjual pakaian, aksesoris, dan sepatu.",
+        "Kami memiliki berbagai produk, termasuk pakaian, sepatu, dan aksesoris."
+      ]
+    },
+    {
+      "tag": "pembayaran",
+      "patterns": [
+        "Apakah Anda menerima kartu kredit?",
+        "Bisa bayar dengan Mastercard?",
+        "Bisakah saya membayar dengan Paypal?",
+        "Hanya menerima pembayaran tunai?"
+      ],
+      "responses": [
+        "Kami menerima pembayaran dengan VISA, Mastercard, dan Paypal.",
+        "Kami menerima sebagian besar kartu kredit utama, dan Paypal."
+      ]
+    },
+    {
+      "tag": "pengiriman",
+      "patterns": [
+        "Berapa lama pengiriman?",
+        "Kapan saya mendapatkan pengiriman?"
+      ],
+      "responses": [
+        "Pengiriman biasanya memakan waktu 2-4 hari kerja.",
+        "Anda dapat mengharapkan pengiriman dalam waktu 2-4 hari."
+      ]
+    },
+    {
+      "tag": "lucu",
+      "patterns": [
+        "Ceritakan joke!",
+        "Tahu joke lucu?",
+        "Bisa ceritakan sesuatu yang lucu?"
+      ],
+      "responses": [
+        "Kenapa kura-kura membawa rumahnya? Karena dia tidak punya kantong!",
+        "Apa yang disebut gajah yang menguasai masa lalu? Sejarah!"
+      ]
+    }
+  ]
+}
